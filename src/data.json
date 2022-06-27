@@ -1,0 +1,61 @@
+[
+    {
+        "id": 1,
+        "image": "https://a0.muscache.com/im/pictures/eb9c7c6a-ee33-414a-b1ba-14e8860d59b3.jpg?im_w=720",
+        "title": "Badachro",
+        "rating": "4.71",
+        "distance": "5,754 ",
+        "date": "Nov 3-8",
+        "price": "210"
+    },
+    {
+        "id": 2,
+        "image": "https://a0.muscache.com/im/pictures/15159c9c-9cf1-400e-b809-4e13f286fa38.jpg?im_w=720",
+        "title": "Sali, Croatia, Croatia",
+        "rating": "New",
+        "distance": "4316 ",
+        "date": "Sep 19-25",
+        "price": "155"
+
+    },
+    {
+        "id": 3,
+        "image": "https://a0.muscache.com/im/pictures/fdb46962-10c1-45fc-a228-d0b055411448.jpg?im_w=720",
+        "title": "Murter, Croatia",
+        "rating": "5.0",
+        "distance": "4,323 ",
+        "date": "Sep 28-Oct 3",
+        "price": "205"
+
+    },
+    {
+        "id": 4,
+        "image": "https://media.nomadicmatt.com/2019/airbnb_breakup3.jpg",
+        "title": "Vis, Croatia",
+        "rating": "New",
+        "distance": "4,262 ",
+        "date": "July 1-6",
+        "price": "1,478"
+
+    },
+    {
+        "id": 5,
+        "image": "https://thespaces.com/wp-content/uploads/2017/08/Courtesy-of-Airbnb.jpg",
+        "title": "Angra dos Reis, Brazil",
+        "rating": "5.0",
+        "distance": "6,135 ",
+        "date": "July 1-6",
+        "price": "631"
+
+    },
+    {
+        "id": 6,
+        "image": "https://media.nomadicmatt.com/2018/apartment.jpg",
+        "title": "Uusikaupunki, Finland",
+        "rating": "4.92",
+        "distance": "6,227",
+        "date": "Aug 19-24",
+        "price": "240"
+
+    }
+]
