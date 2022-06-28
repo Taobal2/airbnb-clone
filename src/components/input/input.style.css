@@ -10,22 +10,14 @@
 }
 
 .input {
-    width: 100%;
-    border-radius: 3rem;
-    height:100%;
-    flex: 1;
-    height: 100%;
-    border-radius: 3rem;
-    padding-left: 10px;
-    outline: 0;
-    border:1px solid lightgrey;
+ display: none;
 }
 
 .input__icon {
     font-size:1.5rem;
     color:#000;
     position: absolute;
-    left: 10px;
+    left: 5px;
     margin-left: 1rem;
 }
 
@@ -66,7 +58,7 @@
 
 /* Media query */
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
     .input__container {
         width: 28rem;
         border-radius: 3rem;
