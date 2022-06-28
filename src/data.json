@@ -12,7 +12,7 @@
     },
     {
         "id": 2,
-        "image": "https://a0.muscache.com/im/pictures/15159c9c-9cf1-400e-b809-4e13f286fa38.jpg?im_w=720",
+        "image": "https://a0.muscache.com/im/pictures/eb9c7c6a-ee33-414a-b1ba-14e8860d59b3.jpg?im_w=720",
         "title": "Sali, Croatia, Croatia",
         "rating": "New",
         "distance": "4316 ",
@@ -22,8 +22,8 @@
     },
     {
         "id": 3,
-        "image": "https://a0.muscache.com/im/pictures/fdb46962-10c1-45fc-a228-d0b055411448.jpg?im_w=720",
-        "title": "Murter, Croatia",
+        "image": "https://a0.muscache.com/im/pictures/03bf7345-f535-4266-9bb1-b1a84d464d1c.jpg?im_w=720",
+        "title": "Unique stays",
         "rating": "5.0",
         "distance": "4,323 ",
         "date": "Sep 28-Oct 3",
@@ -52,12 +52,193 @@
     },
     {
         "id": 6,
-        "image": "https://media.nomadicmatt.com/2018/apartment.jpg",
+        "image": "https://a0.muscache.com/im/pictures/177ed8a7-557b-480f-8319-4f8330e2c692.jpg?im_w=720",
         "title": "Uusikaupunki, Finland",
         "rating": "4.92",
         "distance": "6,227",
         "date": "Aug 19-24",
         "price": "240"
+
+    },
+    {
+        "id": 7,
+        "image": "https://media.nomadicmatt.com/2018/apartment.jpg",
+        "title": "Uusikaupunki, Finland",
+        "rating": "4.12",
+        "distance": "4,227",
+        "date": "Aug 16-29",
+        "price": "250"
+
+    },
+    {
+        "id": 8,
+        "image": "https://thespaces.com/wp-content/uploads/2017/08/Courtesy-of-Airbnb.jpg",
+        "title": "Penthouse in San Diego",
+        "rating": "5.0",
+        "distance": "5,227",
+        "date": "june 4-24",
+        "price": "780"
+
+    },
+    {
+        "id": 9,
+        "image": "https://thespaces.com/wp-content/uploads/2017/08/Courtesy-of-Airbnb.jpg",
+        "title": "3 Bedroom Flat in Bournemouth",
+        "rating": "4.52",
+        "distance": "4,628",
+        "date": "march 5-18",
+        "price": "380"
+
+    },
+    {
+        "id": 10,
+        "image": "https://media.nomadicmatt.com/2018/apartment.jpg",
+        "title": "Online Experiences",
+        "rating": "4.92",
+        "distance": "6,227",
+        "date": "jan 15-21",
+        "price": "375"
+
+    },
+    {
+        "id": 11,
+        "image": "https://thespaces.com/wp-content/uploads/2017/08/Courtesy-of-Airbnb.jpg",
+        "title": "Unique stays",
+        "rating": "4.92",
+        "distance": "5,537",
+        "date": "feb 4-19",
+        "price": "490"
+
+    },
+    {
+        "id": 12,
+        "image": "https://media.nomadicmatt.com/2019/airbnb_breakup3.jpg",
+        "title": "Sali, Croatia, Croatia",
+        "rating": "5.0",
+        "distance": "4,227",
+        "date": "feb 19-24",
+        "price": "565"
+
+    },
+    {
+        "id": 13,
+        "image": "https://a0.muscache.com/im/pictures/fdb46962-10c1-45fc-a228-d0b055411448.jpg?im_w=720",
+        "title": "Penthouse in San Diego",
+        "rating": "4.92",
+        "distance": "6,227",
+        "date": "dec 11-24",
+        "price": "670"
+
+    },
+    {
+        "id": 14,
+        "image": "https://media.nomadicmatt.com/2019/airbnb_breakup3.jpg",
+        "title": "Uusikaupunki, Finland",
+        "rating": "3.92",
+        "distance": "6,227",
+        "date": "june 5-20",
+        "price": "530"
+
+    },
+    {
+        "id": 15,
+        "image":  "https://a0.muscache.com/im/pictures/177ed8a7-557b-480f-8319-4f8330e2c692.jpg?im_w=720",
+        "title": "1 Bedroom apartment",
+        "rating": "4.92",
+        "distance": "6,227",
+        "date": "march 19-24",
+        "price": "350"
+
+    },
+    {
+        "id": 16,
+        "image": "https://a0.muscache.com/im/pictures/4d268e76-949f-4de7-a10b-b4b48ea3355d.jpg?im_w=720",
+        "title": "Entire home",
+        "rating": "5.0",
+        "distance": "4,227",
+        "date": "feb 19-24",
+        "price": "565"
+
+    },
+    {
+
+       
+        "id": 17,
+        "image": "https://a0.muscache.com/im/pictures/4d268e76-949f-4de7-a10b-b4b48ea3355d.jpg?im_w=720",
+        "title": "Badachro",
+        "rating": "4.71",
+        "distance": "5,754",
+        "date": "Nov 3-8",
+        "price": "210"
+    },
+    {
+        "id": 18,
+        "image": "https://a0.muscache.com/im/pictures/eb9c7c6a-ee33-414a-b1ba-14e8860d59b3.jpg?im_w=720",
+        "title": "Sali, Croatia, Croatia",
+        "rating": "New",
+        "distance": "4316 ",
+        "date": "Sep 19-25",
+        "price": "155"
+
+    },
+    {
+        "id": 19,
+        "image": "https://a0.muscache.com/im/pictures/03bf7345-f535-4266-9bb1-b1a84d464d1c.jpg?im_w=720",
+        "title": "Sali, Croatia, Croatia",
+        "rating": "5.0",
+        "distance": "4,323 ",
+        "date": "Sep 28-Oct 3",
+        "price": "205"
+
+    },
+    {
+        "id": 20,
+        "image": "https://media.nomadicmatt.com/2019/airbnb_breakup3.jpg",
+        "title": "Vis, Croatia",
+        "rating": "New",
+        "distance": "4,262 ",
+        "date": "July 1-6",
+        "price": "1,478"
+
+    },
+    {
+        "id": 21,
+        "image": "https://thespaces.com/wp-content/uploads/2017/08/Courtesy-of-Airbnb.jpg",
+        "title": "Angra dos Reis, Brazil",
+        "rating": "5.0",
+        "distance": "6,135 ",
+        "date": "July 1-6",
+        "price": "631"
+
+    },
+    {
+        "id": 22,
+        "image": "https://media.nomadicmatt.com/2019/airbnb_breakup3.jpg",
+        "title": "Uusikaupunki, Finland",
+        "rating": "3.92",
+        "distance": "6,227",
+        "date": "june 5-20",
+        "price": "530"
+
+    },
+    {
+        "id": 23,
+        "image": "https://media.nomadicmatt.com/2018/apartment.jpg",
+        "title": "1 Bedroom apartment",
+        "rating": "4.92",
+        "distance": "6,227",
+        "date": "march 19-24",
+        "price": "350"
+
+    },
+    {
+        "id": 24,
+        "image": "https://a0.muscache.com/im/pictures/4d268e76-949f-4de7-a10b-b4b48ea3355d.jpg?im_w=720",
+        "title": "Entire home",
+        "rating": "5.0",
+        "distance": "4,227",
+        "date": "feb 19-24",
+        "price": "565"
 
     }
 ]
