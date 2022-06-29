@@ -4,6 +4,7 @@ import { BiMenu } from "react-icons/bi";
 import logo from "../../assets/airbnbLogo.png";
 import "./navigation.style.css";
 import Input from "../input/input.component";
+import Banner from "../banner/banner.component";
 
 const Navigation = () => {
   return (
@@ -21,6 +22,10 @@ const Navigation = () => {
             <span className="profile__container"></span>
           </span>
         </div>
+      </section>
+
+      <section className="banner__section">
+        <Banner />
       </section>
     </nav>
   );
