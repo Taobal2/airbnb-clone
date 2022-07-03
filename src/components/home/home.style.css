@@ -5,11 +5,15 @@
     justify-content: center;
     flex-wrap: wrap;
     padding: 0 10px;
+    /* padding-top:120px; */
+    background-color: grey;
 }
 
 @media  screen and  (min-width: 1024px) {
     .home__container {
     padding: 0 50px;
+    /* padding-top:120px; */
+
 
     }
 }

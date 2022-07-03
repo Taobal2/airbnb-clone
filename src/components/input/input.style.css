@@ -9,9 +9,6 @@
     cursor: pointer;
 }
 
-.input {
- display: none;
-}
 
 .input__icon {
     font-size:1.5rem;
@@ -58,7 +55,7 @@
 
 /* Media query */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
     .input__container {
         width: 28rem;
         border-radius: 3rem;
@@ -66,21 +63,10 @@
         display: flex;
         align-items:center;
         position: relative;
-        margin-left: 150px;
+        /* margin-left: 150px; */
     }
     
-    .input {
-        width: 100%;
-        border-radius: 3rem;
-        height:100%;
-        flex: 1;
-        height: 100%;
-        border-radius: 3rem;
-        padding-left: 10px;
-        outline: 0;
-        border:1px solid lightgrey;
-    }
-    
+   
     .input__icon {
         left:382px;
         color: red;
