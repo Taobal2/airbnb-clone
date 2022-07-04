@@ -1,9 +1,11 @@
 .navigation {
     width:100%;
     height:100px;
-    display: fixed;
-    z-index: 10;
+    position: fixed;
+    z-index: 1; 
+    background-color: white;
 }
+
 
 .navigation__top {
     width:100%;

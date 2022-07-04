@@ -1,9 +1,9 @@
 .banner {
-    width:120px;
-    height:120px;
+    /* width:120px; */
+    height:150px;
     padding-top: 40px;
     display:flex;
-    margin-right: 10px;
+    /* margin-right: 1rem; */
 
 }
 
@@ -48,7 +48,8 @@
 
 .banner__title {
     font-size: 1rem;
-    position: relative;
+    /* position: relative; */
+    white-space: nowrap;
 }
 
 

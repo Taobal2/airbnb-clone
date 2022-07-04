@@ -4,6 +4,7 @@ import { BiMenu } from "react-icons/bi";
 import logo from "../../assets/airbnbLogo.png";
 import "./navigation.style.css";
 import Input from "../input/input.component";
+import TopSlider from "../top/topSlider.component";
 
 const Navigation = () => {
   return (
@@ -23,7 +24,9 @@ const Navigation = () => {
         </div>
       </section>
 
-      <section className="banner__section"></section>
+      <section>
+        <TopSlider />
+      </section>
     </nav>
   );
 };
