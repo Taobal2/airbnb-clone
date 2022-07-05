@@ -1,0 +1,140 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    color:black;
+    display:flex;
+    flex-direction:column-reverse;
+    padding:0 10px;
+    padding-top:100px;
+}
+
+.section--1 {
+    width: 100%;;
+    height: 100%;
+    display:flex;
+    flex-direction:column;
+}
+
+.section--top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.house__details {
+    display:flex;
+    flex-direction: column;
+    opacity:0;
+}
+
+.house__name {
+    font-size:25px;
+    margin-bottom: 5px;
+}
+
+.house__location {
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.transfer__details {
+    display:flex;
+    align-items: center;
+    font-size:18px;
+}
+
+.transfer {
+    display:flex;
+    align-items: center;
+    margin-left:20px;
+    cursor: pointer;
+}
+
+.transfer__icon {
+    margin-right: 10px;
+}
+
+.transfer__text {
+    text-decoration: underline;
+}
+
+
+
+.section--middle {
+    width:100%;
+    display:flex;
+    height:500px;
+    justify-content:space-between;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin:30px 0;
+    overflow: hidden;
+}
+
+.large__image {
+    width: 100%;
+    height: 100%;
+}
+
+.image--large {
+    width: 100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.house__images {
+  display:none;
+}
+
+.section--bottom {
+    display:flex;
+    flex-direction:column;
+    margin-bottom: 20px;
+}
+
+.house__fullDetails {
+    font-size:25px;
+    font-weight:700;
+    margin-bottom: 8px;
+
+}
+
+.house__discription {
+    font-size:20px;
+    text-decoration: underline;
+}
+
+
+/* MEDIA QUERY */
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding:0 100px;
+        padding-top: 120px;
+    }
+    
+    .house__details {
+        opacity:1;
+    }
+       
+    .large__image {
+        width: 49%;
+    }
+    
+    .house__images {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .image--small {
+        width: 49%;
+        height:49%;
+        object-fit:cover;
+        margin:2px;
+    }
+    
+}
