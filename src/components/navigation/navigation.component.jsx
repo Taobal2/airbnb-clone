@@ -8,20 +8,18 @@ import Input from "../input/input.component";
 const Navigation = () => {
   return (
     <nav className="navigation">
-      <section className="navigation__top">
-        <img src={logo} alt="logo" className="navigation__logo" />
+      <img src={logo} alt="logo" className="navigation__logo" />
 
-        <Input />
+      <Input />
 
-        <div className="navigation__link">
-          <span className="nav__text">Become a host</span>
-          <TbWorld className="nav__icon" />{" "}
-          <span className="nav__profile">
-            <BiMenu className="menu__icon" />
-            <span className="profile__container"></span>
-          </span>
-        </div>
-      </section>
+      <div className="navigation__link">
+        <span className="nav__text">Become a host</span>
+        <TbWorld className="nav__icon" />{" "}
+        <span className="nav__profile">
+          <BiMenu className="menu__icon" />
+          <span className="profile__container"></span>
+        </span>
+      </div>
     </nav>
   );
 };

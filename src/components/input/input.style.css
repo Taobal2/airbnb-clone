@@ -1,33 +1,33 @@
 .input__container {
-    width: 100%;
-    border-radius: 3rem;
-    height:65px;
-    display: flex;
     align-items:center;
-    position: relative;
+    border-radius: 3rem;
     box-shadow:2px 2px 10px 5px rgba(0, 0, 0, 0.2); 
     cursor: pointer;
+    display: flex;
+    height:65px;
+    position: relative;
+    width: 100%;
 }
 
 
 .input__icon {
-    font-size:1.5rem;
     color:#000;
-    position: absolute;
+    font-size:1.5rem;
     left: 5px;
-    margin-left: 1rem;
+    margin-left: .5rem;
+    position: absolute;
 }
 
 .icon__container {
-    width:45px;
-    height:45px;
+    align-items: center;
     border-radius: 50%;
-    position:absolute;
-    right: 15px;
     border: 1px solid lightgrey;
     display:flex;
+    height:45px;
     justify-content: center;
-    align-items: center;
+    position:absolute;
+    right: 15px;
+    width:45px;
 }
 
 .key__icon {
@@ -35,12 +35,12 @@
 }
 
 .input__texts {
-    position:absolute;
-    left: 0px;
-    margin-left:80px;
     display:flex;
     flex-direction:column;
+    left: 0px;
     letter-spacing: .5px;
+    margin-left:50px;
+    position:absolute;
 }
 .input__text1 {
     font-size:1rem;
@@ -48,8 +48,8 @@
     margin-bottom: 3px;
 }
 .input__text2 {
-    font-size:.9rem;
     color: grey;
+    font-size:.9rem;
 }
 
 
@@ -57,19 +57,18 @@
 
 @media screen and (min-width: 1024px) {
     .input__container {
-        width: 28rem;
-        border-radius: 3rem;
-        height:65px;
-        display: flex;
         align-items:center;
+        border-radius: 3rem;
+        display: flex;
+        height:65px;
         position: relative;
-        /* margin-left: 150px; */
+        width: 28rem;
     }
     
    
     .input__icon {
-        left:382px;
         color: red;
+        left:382px;
         
     }
     
@@ -90,7 +89,7 @@
       display: none;
     }
     .input__text2 {
-        font-size:1.2rem;
         color: #000;
+        font-size:1.2rem;
     }
 }
