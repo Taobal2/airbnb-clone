@@ -13,8 +13,14 @@ const Navigation = () => {
       <Input />
 
       <div className="navigation__link">
-        <span className="nav__text">Become a host</span>
-        <TbWorld className="nav__icon" />{" "}
+        <div className="nav__text">
+          <span className="nav__test">Become a host</span>
+        </div>
+
+        <div className="navIcon__container">
+          <TbWorld className="nav__icon" />{" "}
+        </div>
+
         <span className="nav__profile">
           <BiMenu className="menu__icon" />
           <span className="profile__container"></span>

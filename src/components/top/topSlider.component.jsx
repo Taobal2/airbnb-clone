@@ -7,11 +7,11 @@ import "./topSlider.style.css";
 
 const TopSlider = () => {
   const settings = {
-    dots: false,
+    dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 10,
-    slidesToScroll: 4,
+    slidesToShow: 8,
+    slidesToScroll: 3,
   };
 
   return (

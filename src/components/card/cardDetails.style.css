@@ -4,8 +4,8 @@
     flex-direction:column-reverse;
     height: 100%;
     min-height: 100vh;
-    padding-top:100px;
     padding:0 10px;
+    padding-top:120px;
     width: 100%;
 }
 
@@ -131,10 +131,10 @@
     }
     
     .image--small {
-        height:49%;
-        margin:2px;
-        object-fit:cover;
         width: 49%;
+        height:49%;
+        object-fit:cover;
+        margin:2px;
     }
     
 }
