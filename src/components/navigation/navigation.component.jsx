@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { TbWorld } from "react-icons/tb";
 import { BiMenu } from "react-icons/bi";
 import logo from "../../assets/airbnbLogo.png";
 import "./navigation.style.css";
 import Input from "../input/input.component";
+import Dropdown from "../dropdown/dropdown.component";
 
 const Navigation = () => {
   return (
@@ -26,6 +27,8 @@ const Navigation = () => {
           <span className="profile__container"></span>
         </span>
       </div>
+
+      <Dropdown />
     </nav>
   );
 };
