@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { TbWorld } from "react-icons/tb";
+import { Link } from "react-router-dom";
 import { BiMenu } from "react-icons/bi";
 import logo from "../../assets/airbnbLogo.png";
 import "./navigation.style.css";
@@ -13,7 +14,9 @@ const Navigation = () => {
   const toggleDropDown = () => setIsDropDownOpen(!isDropDownOpen);
   return (
     <nav className="navigation">
-      <img src={logo} alt="logo" className="navigation__logo" />
+      <Link to="/">
+        <img src={logo} alt="logo" className="navigation__logo" />
+      </Link>
 
       <Input />
 
