@@ -1,0 +1,24 @@
+.video__container {
+  width: 100%;
+  height: 80vh;
+  background-color: #000000;
+  padding-top:120px;
+}
+
+ 
+.videos { 
+  object-fit: cover;
+} 
+
+
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import {
-  createUserDocFromAuth,
   signInWithGooglePopup,
   signInAuthUserWithEmailAndPassword,
 } from "../../utility/firebase/firebase.utility";
@@ -25,10 +24,7 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      const { user } = await signInAuthUserWithEmailAndPassword(
-        email,
-        password
-      );
+      await signInAuthUserWithEmailAndPassword(email, password);
 
       resetFormFields();
     } catch (error) {

@@ -4,10 +4,14 @@
     padding:50px 0;
     display:flex;
     flex-direction: column;
+    background-color: #F7F7F7;
+    align-items: center;
+
 }
 
 .footer__list {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -25,7 +29,7 @@
 }
 
 .footer__bottom {
-    width: 100%;
+    width: 90%;
     display:flex;
     flex-direction: column;
     align-items:center;
@@ -36,6 +40,7 @@
 .footerBottom__list {
     display:flex;
     align-items: center;
+    /* padding:0 100px; */
 }
 
 .english {

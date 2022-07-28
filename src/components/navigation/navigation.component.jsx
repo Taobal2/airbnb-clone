@@ -21,9 +21,11 @@ const Navigation = () => {
       <Input />
 
       <div className="navigation__link">
-        <div className="nav__text">
-          <span className="nav__test">Become a host</span>
-        </div>
+        <Link to="/host">
+          <div className="nav__text">
+            <span className="nav__test">Become a host</span>
+          </div>
+        </Link>
 
         <div className="navIcon__container">
           <TbWorld className="nav__icon" />{" "}
