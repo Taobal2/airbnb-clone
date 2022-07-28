@@ -6,6 +6,7 @@ import "./card.style.css";
 import "./cardDetails.style.css";
 import data from "../../data.json";
 import { useParams } from "react-router-dom";
+import Footer from "../footer/footer.component";
 
 const CardDetails = () => {
   const [myData, setMyData] = useState(null);
@@ -54,6 +55,8 @@ const CardDetails = () => {
           <span className="house__discription">{myData?.discription} .</span>
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 };
